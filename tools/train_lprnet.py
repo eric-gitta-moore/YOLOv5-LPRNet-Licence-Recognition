@@ -101,7 +101,7 @@ def train():
     lprnet = LPRNet(lpr_max_len=args.lpr_max_len, phase=args.phase_train, class_num=len(CHARS), dropout_rate=args.dropout_rate)
     device = torch.device("cuda:0" if args.cuda else "cpu")
     lprnet.to(device)
-    print("Successful to build network!")
+    print(f"Successful to build network! cuda:{device}")
 
     # load pretrained model
     if args.pretrained_model:
@@ -192,15 +192,16 @@ def train():
         # target_lengths: tuple   example: 000=7   001=8 ...   每个gt长度
         loss = ctc_loss(log_probs, labels, input_lengths=input_lengths, target_lengths=target_lengths)
         if loss.item() == np.inf:
+            print(f'it:{iteration}, loss inf')
             continue
         loss.backward()
         optimizer.step()
         loss_val += loss.item()
         end_time = time.time()
-        if iteration % 20 == 0:
-            print('Epoch:' + repr(epoch) + ' || epochiter: ' + repr(iteration % epoch_size) + '/' + repr(epoch_size)
-                  + '|| Totel iter ' + repr(iteration) + ' || Loss: %.4f||' % (loss.item()) +
-                  'Batch time: %.4f sec. ||' % (end_time - start_time) + 'LR: %.8f' % (lr))
+        # if iteration % 20 == 0:
+        print('Epoch:' + repr(epoch) + ' || epochiter: ' + repr(iteration % epoch_size) + '/' + repr(epoch_size)
+                + '|| Totel iter ' + repr(iteration) + ' || Loss: %.4f||' % (loss.item()) +
+                'Batch time: %.4f sec. ||' % (end_time - start_time) + 'LR: %.8f' % (lr))
     # final test
     print("Final test Accuracy:")
     Greedy_Decode_Eval(lprnet, test_dataset, args)
