@@ -17,6 +17,7 @@ def get_dir(dir):
     return path.join(home_dir, dir)
 
 trainfiles = os.listdir(get_dir(r"./Sampling_of_CCPD_files"))  #（图片文件夹）
+trainfiles = trainfiles[:3000]
 num_train = len(trainfiles)
 print("num_train: " + str(num_train) )
 index_list = list(range(num_train))
