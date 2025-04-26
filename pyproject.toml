@@ -22,11 +22,11 @@ dependencies = [
 
 [project.optional-dependencies]
 cpu = ["torch>=1.7.0", "torchvision>=0.8.1"]
-# uv 有特么的毛病手动装一下 uv pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu111
-cu111 = ["torch>=1.7.0", "torchvision>=0.8.1"]
+# uv 有特么的毛病手动装一下 uv pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu113
+cu113 = ["torch>=1.7.0", "torchvision>=0.8.1"]
 
 [tool.uv]
-conflicts = [[{ extra = "cpu" }, { extra = "cu111" }]]
+conflicts = [[{ extra = "cpu" }, { extra = "cu113" }]]
 
 [[tool.uv.index]]
 url = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple"
@@ -35,11 +35,11 @@ default = true
 [tool.uv.sources]
 torch = [
     { index = "pytorch-cpu", extra = "cpu" },
-    { index = "pytorch-cu111", extra = "cu111" },
+    { index = "pytorch-cu113", extra = "cu113" },
 ]
 torchvision = [
     { index = "pytorch-cpu", extra = "cpu" },
-    { index = "pytorch-cu111", extra = "cu111" },
+    { index = "pytorch-cu113", extra = "cu113" },
 ]
 
 [[tool.uv.index]]
@@ -48,6 +48,6 @@ url = "https://download.pytorch.org/whl/cpu"
 explicit = true
 
 [[tool.uv.index]]
-name = "pytorch-cu111"
-url = "https://download.pytorch.org/whl/cu111"
+name = "pytorch-cu113"
+url = "https://download.pytorch.org/whl/cu113"
 explicit = true
