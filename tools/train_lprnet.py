@@ -136,7 +136,7 @@ def train():
     test_dataset = LPRDataLoader(test_img_dirs.split(','), args.img_size, args.lpr_max_len)
 
     epoch_size = len(train_dataset) // args.train_batch_size
-    print('epoch_size {epoch_size}')
+    print(f'epoch_size {epoch_size}')
     max_iter = args.max_epoch * epoch_size
 
     ctc_loss = nn.CTCLoss(blank=len(CHARS)-1, reduction='mean')  # reduction: 'none' | 'mean' | 'sum'
