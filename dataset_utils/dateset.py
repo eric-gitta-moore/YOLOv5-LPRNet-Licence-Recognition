@@ -44,7 +44,7 @@ def txt_translate(path, txt_path):
 
 if __name__ == '__main__':
 
-    from .. import conf
+    import conf
     home_dir = conf.get_home()
     def get_dir(dir):
         return os.path.join(home_dir, dir)

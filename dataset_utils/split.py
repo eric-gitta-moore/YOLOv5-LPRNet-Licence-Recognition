@@ -11,7 +11,7 @@ import shutil
 from shutil import copy2
 
 
-from .. import conf
+import conf
 home_dir = conf.get_home()
 def get_dir(dir):
     return path.join(home_dir, dir)
