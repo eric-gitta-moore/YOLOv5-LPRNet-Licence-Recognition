@@ -50,18 +50,18 @@ if __name__ == '__main__':
         return os.path.join(home_dir, dir)
 
     # det图片存储地址
-    trainDir = r"./images/train/"
-    validDir = r"./images/val/"
-    testDir = r"./images/test/"
+    trainDir = get_dir(r"./images/train/")
+    validDir = get_dir(r"./images/val/")
+    testDir = get_dir(r"./images/test/")
     # det txt存储地址
-    train_txt_path = r"./labels/train/"
-    val_txt_path = r"./labels/val/"
-    test_txt_path = r"./labels/test/"
+    train_txt_path = get_dir(r"./labels/train/")
+    val_txt_path = get_dir(r"./labels/val/")
+    test_txt_path = get_dir(r"./labels/test/")
 
     
     for dir in [trainDir, validDir, testDir, train_txt_path, val_txt_path, test_txt_path]:
-        if not os.path.exists(get_dir(dir)):
-            os.makedirs(get_dir(dir))
+        if not os.path.exists(dir):
+            os.makedirs(dir)
     txt_translate(trainDir, train_txt_path)
     txt_translate(validDir, val_txt_path)
     txt_translate(testDir, test_txt_path)
