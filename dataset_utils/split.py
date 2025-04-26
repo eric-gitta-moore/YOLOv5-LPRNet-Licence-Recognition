@@ -23,13 +23,13 @@ index_list = list(range(num_train))
 print(index_list)
 random.shuffle(index_list)  # 打乱顺序
 num = 0
-trainDir = r"./images/train"   #（将图片文件夹中的6份放在这个文件夹下）
-validDir = r"./images/val"     #（将图片文件夹中的2份放在这个文件夹下）
-detectDir = r"./images/test"   #（将图片文件夹中的2份放在这个文件夹下）
+trainDir = get_dir(r"./images/train")   #（将图片文件夹中的6份放在这个文件夹下）
+validDir = get_dir(r"./images/val")     #（将图片文件夹中的2份放在这个文件夹下）
+detectDir = get_dir(r"./images/test")   #（将图片文件夹中的2份放在这个文件夹下）
 
 for dir in [trainDir, validDir, detectDir]:
-    if not os.path.exists(get_dir(dir)):
-        os.makedirs(get_dir(dir))
+    if not os.path.exists(dir):
+        os.makedirs(dir)
 
 for i in index_list:
     fileName = os.path.join(get_dir(r"./Sampling_of_CCPD_files"), trainfiles[i])  #（图片文件夹）+图片名=图片地址
