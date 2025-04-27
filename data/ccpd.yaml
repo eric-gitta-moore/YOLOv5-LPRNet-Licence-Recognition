@@ -1,7 +1,7 @@
-path: ../datasets/ccpd/det
-train: images/train
-val: images/val
-test: images/test
+path: /home/linux/workspace/ccpd2019
+train: /home/linux/workspace/ccpd2019/images/train
+val: /home/linux/workspace/ccpd2019/images/val
+test: /home/linux/workspace/ccpd2019/images/test
 
 nc: 1
 names: ['licence']

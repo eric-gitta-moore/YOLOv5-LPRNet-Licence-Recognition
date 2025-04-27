@@ -2,20 +2,20 @@ version = 1
 revision = 2
 requires-python = "==3.8.*"
 resolution-markers = [
-    "platform_machine == 'arm64' and sys_platform == 'darwin' and extra != 'extra-33-yolov5-lprnet-licence-recognition-cpu' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cu111'",
-    "platform_machine == 'aarch64' and sys_platform == 'linux' and extra != 'extra-33-yolov5-lprnet-licence-recognition-cpu' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cu111'",
-    "(platform_machine != 'arm64' and sys_platform == 'darwin' and extra != 'extra-33-yolov5-lprnet-licence-recognition-cpu' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cu111') or (platform_machine != 'aarch64' and sys_platform == 'linux' and extra != 'extra-33-yolov5-lprnet-licence-recognition-cpu' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cu111') or (sys_platform != 'darwin' and sys_platform != 'linux' and extra != 'extra-33-yolov5-lprnet-licence-recognition-cpu' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cu111')",
-    "platform_machine == 'arm64' and sys_platform == 'darwin' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cpu' and extra != 'extra-33-yolov5-lprnet-licence-recognition-cu111'",
-    "platform_machine == 'aarch64' and sys_platform == 'linux' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cpu' and extra != 'extra-33-yolov5-lprnet-licence-recognition-cu111'",
-    "(platform_machine != 'aarch64' and sys_platform == 'linux' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cpu' and extra != 'extra-33-yolov5-lprnet-licence-recognition-cu111') or (sys_platform != 'darwin' and sys_platform != 'linux' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cpu' and extra != 'extra-33-yolov5-lprnet-licence-recognition-cu111')",
-    "platform_machine != 'arm64' and sys_platform == 'darwin' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cpu' and extra != 'extra-33-yolov5-lprnet-licence-recognition-cu111'",
-    "platform_machine == 'arm64' and sys_platform == 'darwin' and extra != 'extra-33-yolov5-lprnet-licence-recognition-cpu' and extra != 'extra-33-yolov5-lprnet-licence-recognition-cu111'",
-    "platform_machine == 'aarch64' and sys_platform == 'linux' and extra != 'extra-33-yolov5-lprnet-licence-recognition-cpu' and extra != 'extra-33-yolov5-lprnet-licence-recognition-cu111'",
-    "(platform_machine != 'arm64' and sys_platform == 'darwin' and extra != 'extra-33-yolov5-lprnet-licence-recognition-cpu' and extra != 'extra-33-yolov5-lprnet-licence-recognition-cu111') or (platform_machine != 'aarch64' and sys_platform == 'linux' and extra != 'extra-33-yolov5-lprnet-licence-recognition-cpu' and extra != 'extra-33-yolov5-lprnet-licence-recognition-cu111') or (sys_platform != 'darwin' and sys_platform != 'linux' and extra != 'extra-33-yolov5-lprnet-licence-recognition-cpu' and extra != 'extra-33-yolov5-lprnet-licence-recognition-cu111')",
+    "platform_machine == 'arm64' and sys_platform == 'darwin' and extra != 'extra-33-yolov5-lprnet-licence-recognition-cpu' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cu113'",
+    "platform_machine == 'aarch64' and sys_platform == 'linux' and extra != 'extra-33-yolov5-lprnet-licence-recognition-cpu' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cu113'",
+    "(platform_machine != 'arm64' and sys_platform == 'darwin' and extra != 'extra-33-yolov5-lprnet-licence-recognition-cpu' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cu113') or (platform_machine != 'aarch64' and sys_platform == 'linux' and extra != 'extra-33-yolov5-lprnet-licence-recognition-cpu' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cu113') or (sys_platform != 'darwin' and sys_platform != 'linux' and extra != 'extra-33-yolov5-lprnet-licence-recognition-cpu' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cu113')",
+    "platform_machine == 'arm64' and sys_platform == 'darwin' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cpu' and extra != 'extra-33-yolov5-lprnet-licence-recognition-cu113'",
+    "platform_machine == 'aarch64' and sys_platform == 'linux' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cpu' and extra != 'extra-33-yolov5-lprnet-licence-recognition-cu113'",
+    "(platform_machine != 'aarch64' and sys_platform == 'linux' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cpu' and extra != 'extra-33-yolov5-lprnet-licence-recognition-cu113') or (sys_platform != 'darwin' and sys_platform != 'linux' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cpu' and extra != 'extra-33-yolov5-lprnet-licence-recognition-cu113')",
+    "platform_machine != 'arm64' and sys_platform == 'darwin' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cpu' and extra != 'extra-33-yolov5-lprnet-licence-recognition-cu113'",
+    "platform_machine == 'arm64' and sys_platform == 'darwin' and extra != 'extra-33-yolov5-lprnet-licence-recognition-cpu' and extra != 'extra-33-yolov5-lprnet-licence-recognition-cu113'",
+    "platform_machine == 'aarch64' and sys_platform == 'linux' and extra != 'extra-33-yolov5-lprnet-licence-recognition-cpu' and extra != 'extra-33-yolov5-lprnet-licence-recognition-cu113'",
+    "(platform_machine != 'arm64' and sys_platform == 'darwin' and extra != 'extra-33-yolov5-lprnet-licence-recognition-cpu' and extra != 'extra-33-yolov5-lprnet-licence-recognition-cu113') or (platform_machine != 'aarch64' and sys_platform == 'linux' and extra != 'extra-33-yolov5-lprnet-licence-recognition-cpu' and extra != 'extra-33-yolov5-lprnet-licence-recognition-cu113') or (sys_platform != 'darwin' and sys_platform != 'linux' and extra != 'extra-33-yolov5-lprnet-licence-recognition-cpu' and extra != 'extra-33-yolov5-lprnet-licence-recognition-cu113')",
 ]
 conflicts = [[
     { package = "yolov5-lprnet-licence-recognition", extra = "cpu" },
-    { package = "yolov5-lprnet-licence-recognition", extra = "cu111" },
+    { package = "yolov5-lprnet-licence-recognition", extra = "cu113" },
 ]]
 
 [[package]]
@@ -367,7 +367,7 @@ resolution-markers = [
     "platform_machine == 'arm64' and sys_platform == 'darwin'",
 ]
 dependencies = [
-    { name = "numpy", marker = "(platform_machine == 'arm64' and sys_platform == 'darwin') or (platform_machine != 'arm64' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cpu' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cu111') or (sys_platform != 'darwin' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cpu' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cu111')" },
+    { name = "numpy", marker = "(platform_machine == 'arm64' and sys_platform == 'darwin') or (platform_machine != 'arm64' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cpu' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cu113') or (sys_platform != 'darwin' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cpu' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cu113')" },
 ]
 sdist = { url = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/packages/bc/b6/e447d0302bc328f06b56dabd6742648372df63446725db56058a259dbda2/opencv-python-4.5.4.60.tar.gz", hash = "sha256:f609558a8fe1bf66f6c81816ca14d8e51500c8b53ee44bc644c73f98f1c5655e", size = 89761005, upload_time = "2021-11-22T05:20:38.991Z" }
 wheels = [
@@ -384,16 +384,16 @@ name = "opencv-python"
 version = "4.11.0.86"
 source = { registry = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple" }
 resolution-markers = [
-    "platform_machine == 'aarch64' and sys_platform == 'linux' and extra != 'extra-33-yolov5-lprnet-licence-recognition-cpu' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cu111'",
-    "(platform_machine != 'arm64' and sys_platform == 'darwin' and extra != 'extra-33-yolov5-lprnet-licence-recognition-cpu' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cu111') or (platform_machine != 'aarch64' and sys_platform == 'linux' and extra != 'extra-33-yolov5-lprnet-licence-recognition-cpu' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cu111') or (sys_platform != 'darwin' and sys_platform != 'linux' and extra != 'extra-33-yolov5-lprnet-licence-recognition-cpu' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cu111')",
-    "platform_machine == 'aarch64' and sys_platform == 'linux' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cpu' and extra != 'extra-33-yolov5-lprnet-licence-recognition-cu111'",
-    "(platform_machine != 'aarch64' and sys_platform == 'linux' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cpu' and extra != 'extra-33-yolov5-lprnet-licence-recognition-cu111') or (sys_platform != 'darwin' and sys_platform != 'linux' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cpu' and extra != 'extra-33-yolov5-lprnet-licence-recognition-cu111')",
-    "platform_machine != 'arm64' and sys_platform == 'darwin' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cpu' and extra != 'extra-33-yolov5-lprnet-licence-recognition-cu111'",
-    "platform_machine == 'aarch64' and sys_platform == 'linux' and extra != 'extra-33-yolov5-lprnet-licence-recognition-cpu' and extra != 'extra-33-yolov5-lprnet-licence-recognition-cu111'",
-    "(platform_machine != 'arm64' and sys_platform == 'darwin' and extra != 'extra-33-yolov5-lprnet-licence-recognition-cpu' and extra != 'extra-33-yolov5-lprnet-licence-recognition-cu111') or (platform_machine != 'aarch64' and sys_platform == 'linux' and extra != 'extra-33-yolov5-lprnet-licence-recognition-cpu' and extra != 'extra-33-yolov5-lprnet-licence-recognition-cu111') or (sys_platform != 'darwin' and sys_platform != 'linux' and extra != 'extra-33-yolov5-lprnet-licence-recognition-cpu' and extra != 'extra-33-yolov5-lprnet-licence-recognition-cu111')",
+    "platform_machine == 'aarch64' and sys_platform == 'linux' and extra != 'extra-33-yolov5-lprnet-licence-recognition-cpu' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cu113'",
+    "(platform_machine != 'arm64' and sys_platform == 'darwin' and extra != 'extra-33-yolov5-lprnet-licence-recognition-cpu' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cu113') or (platform_machine != 'aarch64' and sys_platform == 'linux' and extra != 'extra-33-yolov5-lprnet-licence-recognition-cpu' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cu113') or (sys_platform != 'darwin' and sys_platform != 'linux' and extra != 'extra-33-yolov5-lprnet-licence-recognition-cpu' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cu113')",
+    "platform_machine == 'aarch64' and sys_platform == 'linux' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cpu' and extra != 'extra-33-yolov5-lprnet-licence-recognition-cu113'",
+    "(platform_machine != 'aarch64' and sys_platform == 'linux' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cpu' and extra != 'extra-33-yolov5-lprnet-licence-recognition-cu113') or (sys_platform != 'darwin' and sys_platform != 'linux' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cpu' and extra != 'extra-33-yolov5-lprnet-licence-recognition-cu113')",
+    "platform_machine != 'arm64' and sys_platform == 'darwin' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cpu' and extra != 'extra-33-yolov5-lprnet-licence-recognition-cu113'",
+    "platform_machine == 'aarch64' and sys_platform == 'linux' and extra != 'extra-33-yolov5-lprnet-licence-recognition-cpu' and extra != 'extra-33-yolov5-lprnet-licence-recognition-cu113'",
+    "(platform_machine != 'arm64' and sys_platform == 'darwin' and extra != 'extra-33-yolov5-lprnet-licence-recognition-cpu' and extra != 'extra-33-yolov5-lprnet-licence-recognition-cu113') or (platform_machine != 'aarch64' and sys_platform == 'linux' and extra != 'extra-33-yolov5-lprnet-licence-recognition-cpu' and extra != 'extra-33-yolov5-lprnet-licence-recognition-cu113') or (sys_platform != 'darwin' and sys_platform != 'linux' and extra != 'extra-33-yolov5-lprnet-licence-recognition-cpu' and extra != 'extra-33-yolov5-lprnet-licence-recognition-cu113')",
 ]
 dependencies = [
-    { name = "numpy", marker = "platform_machine != 'arm64' or sys_platform != 'darwin' or (extra == 'extra-33-yolov5-lprnet-licence-recognition-cpu' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cu111')" },
+    { name = "numpy", marker = "platform_machine != 'arm64' or sys_platform != 'darwin' or (extra == 'extra-33-yolov5-lprnet-licence-recognition-cpu' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cu113')" },
 ]
 sdist = { url = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/packages/17/06/68c27a523103dad5837dc5b87e71285280c4f098c60e4fe8a8db6486ab09/opencv-python-4.11.0.86.tar.gz", hash = "sha256:03d60ccae62304860d232272e4a4fda93c39d595780cb40b161b310244b736a4", size = 95171956, upload_time = "2025-01-16T13:52:24.737Z" }
 wheels = [
@@ -435,20 +435,26 @@ wheels = [
 
 [[package]]
 name = "pillow"
-version = "10.4.0"
+version = "9.5.0"
 source = { registry = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple" }
-sdist = { url = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/packages/cd/74/ad3d526f3bf7b6d3f408b73fde271ec69dfac8b81341a318ce825f2b3812/pillow-10.4.0.tar.gz", hash = "sha256:166c1cd4d24309b30d61f79f4a9114b7b2313d7450912277855ff5dfd7cd4a06", size = 46555059, upload_time = "2024-07-01T09:48:43.583Z" }
+sdist = { url = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/packages/00/d5/4903f310765e0ff2b8e91ffe55031ac6af77d982f0156061e20a4d1a8b2d/Pillow-9.5.0.tar.gz", hash = "sha256:bf548479d336726d7a0eceb6e767e179fbde37833ae42794602631a070d630f1", size = 50488147, upload_time = "2023-04-01T09:31:37.159Z" }
 wheels = [
-    { url = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/packages/56/70/f40009702a477ce87d8d9faaa4de51d6562b3445d7a314accd06e4ffb01d/pillow-10.4.0-cp38-cp38-macosx_10_10_x86_64.whl", hash = "sha256:8d4d5063501b6dd4024b8ac2f04962d661222d120381272deea52e3fc52d3736", size = 3509213, upload_time = "2024-07-01T09:47:11.662Z" },
-    { url = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/packages/10/43/105823d233c5e5d31cea13428f4474ded9d961652307800979a59d6a4276/pillow-10.4.0-cp38-cp38-macosx_11_0_arm64.whl", hash = "sha256:7c1ee6f42250df403c5f103cbd2768a28fe1a0ea1f0f03fe151c8741e1469c8b", size = 3375883, upload_time = "2024-07-01T09:47:14.453Z" },
-    { url = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/packages/3c/ad/7850c10bac468a20c918f6a5dbba9ecd106ea1cdc5db3c35e33a60570408/pillow-10.4.0-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:b15e02e9bb4c21e39876698abf233c8c579127986f8207200bc8a8f6bb27acf2", size = 4330810, upload_time = "2024-07-01T09:47:16.695Z" },
-    { url = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/packages/84/4c/69bbed9e436ac22f9ed193a2b64f64d68fcfbc9f4106249dc7ed4889907b/pillow-10.4.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:7a8d4bade9952ea9a77d0c3e49cbd8b2890a399422258a77f357b9cc9be8d680", size = 4444341, upload_time = "2024-07-01T09:47:19.334Z" },
-    { url = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/packages/8f/4f/c183c63828a3f37bf09644ce94cbf72d4929b033b109160a5379c2885932/pillow-10.4.0-cp38-cp38-manylinux_2_28_aarch64.whl", hash = "sha256:43efea75eb06b95d1631cb784aa40156177bf9dd5b4b03ff38979e048258bc6b", size = 4356005, upload_time = "2024-07-01T09:47:21.805Z" },
-    { url = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/packages/fb/ad/435fe29865f98a8fbdc64add8875a6e4f8c97749a93577a8919ec6f32c64/pillow-10.4.0-cp38-cp38-manylinux_2_28_x86_64.whl", hash = "sha256:950be4d8ba92aca4b2bb0741285a46bfae3ca699ef913ec8416c1b78eadd64cd", size = 4525201, upload_time = "2024-07-01T09:47:24.457Z" },
-    { url = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/packages/80/74/be8bf8acdfd70e91f905a12ae13cfb2e17c0f1da745c40141e26d0971ff5/pillow-10.4.0-cp38-cp38-musllinux_1_2_aarch64.whl", hash = "sha256:d7480af14364494365e89d6fddc510a13e5a2c3584cb19ef65415ca57252fb84", size = 4460635, upload_time = "2024-07-01T09:47:26.841Z" },
-    { url = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/packages/e4/90/763616e66dc9ad59c9b7fb58f863755e7934ef122e52349f62c7742b82d3/pillow-10.4.0-cp38-cp38-musllinux_1_2_x86_64.whl", hash = "sha256:73664fe514b34c8f02452ffb73b7a92c6774e39a647087f83d67f010eb9a0cf0", size = 4590283, upload_time = "2024-07-01T09:47:29.247Z" },
-    { url = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/packages/69/66/03002cb5b2c27bb519cba63b9f9aa3709c6f7a5d3b285406c01f03fb77e5/pillow-10.4.0-cp38-cp38-win32.whl", hash = "sha256:e88d5e6ad0d026fba7bdab8c3f225a69f063f116462c49892b0149e21b6c0a0e", size = 2235185, upload_time = "2024-07-01T09:47:32.205Z" },
-    { url = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/packages/f2/75/3cb820b2812405fc7feb3d0deb701ef0c3de93dc02597115e00704591bc9/pillow-10.4.0-cp38-cp38-win_amd64.whl", hash = "sha256:5161eef006d335e46895297f642341111945e2c1c899eb406882a6c61a4357ab", size = 2554594, upload_time = "2024-07-01T09:47:34.285Z" },
+    { url = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/packages/49/ef/98941488c7491a249692787dc741c97c22d5212a6d85f017519011195cfe/Pillow-9.5.0-cp38-cp38-macosx_10_10_x86_64.whl", hash = "sha256:a0aa9417994d91301056f3d0038af1199eb7adc86e646a36b9e050b06f526597", size = 3395670, upload_time = "2023-04-01T09:29:39.764Z" },
+    { url = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/packages/aa/a5/ba2eeb1a242babb23a21a782356f8b6fe1312b24b69062ee1cb60107fd95/Pillow-9.5.0-cp38-cp38-macosx_11_0_arm64.whl", hash = "sha256:f8286396b351785801a976b1e85ea88e937712ee2c3ac653710a4a57a8da5d9c", size = 3077136, upload_time = "2023-04-01T09:29:43.015Z" },
+    { url = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/packages/18/e4/f13369726d14e550f0028265b299f7c8262ccb7fb295df29e4f2fd79e0ab/Pillow-9.5.0-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:c830a02caeb789633863b466b9de10c015bded434deb3ec87c768e53752ad22a", size = 3112507, upload_time = "2023-04-01T09:29:45.525Z" },
+    { url = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/packages/90/00/123c546069abac47bd4ce2e0a78e6ad4040e43294ebbb266a3a21d3616b2/Pillow-9.5.0-cp38-cp38-manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:fbd359831c1657d69bb81f0db962905ee05e5e9451913b18b831febfe0519082", size = 3386666, upload_time = "2023-04-01T09:29:48.132Z" },
+    { url = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/packages/1b/dc/2d0919633097a93dcad35a2fb97304f4a9297f746e830a8b441af3db2007/Pillow-9.5.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:f8fc330c3370a81bbf3f88557097d1ea26cd8b019d6433aa59f71195f5ddebbf", size = 3308600, upload_time = "2023-04-01T09:29:50.886Z" },
+    { url = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/packages/33/a8/0d37d73387b8ea9cb3ad391a93e65ed9f62a331c0dfed1869891b6efd7a2/Pillow-9.5.0-cp38-cp38-manylinux_2_28_aarch64.whl", hash = "sha256:7002d0797a3e4193c7cdee3198d7c14f92c0836d6b4a3f3046a64bd1ce8df2bf", size = 3163998, upload_time = "2023-04-01T09:29:53.964Z" },
+    { url = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/packages/a6/8b/cca45afbbd58ca032594ea465ded859b9da6d8bc226afe0e60e64bd8872e/Pillow-9.5.0-cp38-cp38-manylinux_2_28_x86_64.whl", hash = "sha256:229e2c79c00e85989a34b5981a2b67aa079fd08c903f0aaead522a1d68d79e51", size = 3415559, upload_time = "2023-04-01T09:29:57.018Z" },
+    { url = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/packages/5d/06/2f319e3244bdd84567ed2d7d405a6e0fd9dd03fc6d7e24794ac1e14d570d/Pillow-9.5.0-cp38-cp38-musllinux_1_1_aarch64.whl", hash = "sha256:9adf58f5d64e474bed00d69bcd86ec4bcaa4123bfa70a65ce72e424bfb88ed96", size = 3350681, upload_time = "2023-04-01T09:29:59.42Z" },
+    { url = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/packages/db/5c/ba9e291850f594f89436cdca93d36c6f8610d4fb7833a6c257f4481d4174/Pillow-9.5.0-cp38-cp38-musllinux_1_1_x86_64.whl", hash = "sha256:662da1f3f89a302cc22faa9f14a262c2e3951f9dbc9617609a47521c69dd9f8f", size = 3414578, upload_time = "2023-04-01T09:30:02.245Z" },
+    { url = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/packages/85/4d/d0b5c3610a39f01e380489770b10e2b8644a2188eace45c84e40d439b0dd/Pillow-9.5.0-cp38-cp38-win32.whl", hash = "sha256:6608ff3bf781eee0cd14d0901a2b9cc3d3834516532e3bd673a0a204dc8615fc", size = 2229252, upload_time = "2023-04-01T09:30:04.719Z" },
+    { url = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/packages/c3/ba/c4c2a1411561cd9725979115e7450f1367b44997ae1ff29e5845bce92d52/Pillow-9.5.0-cp38-cp38-win_amd64.whl", hash = "sha256:e49eb4e95ff6fd7c0c402508894b1ef0e01b99a44320ba7d8ecbabefddcc5569", size = 2537784, upload_time = "2023-04-01T09:30:07.456Z" },
+    { url = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/packages/05/80/40ec3390eb39f128f9c81dfdce6fe419fad1296e816232c2785e74bb6255/Pillow-9.5.0-pp38-pypy38_pp73-macosx_10_10_x86_64.whl", hash = "sha256:833b86a98e0ede388fa29363159c9b1a294b0905b5128baf01db683672f230f5", size = 3350068, upload_time = "2023-04-01T09:30:57.413Z" },
+    { url = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/packages/52/f8/099a6b9de39763b40ed6be5c0aa5b5aed800ecad98535c6c77dfa79484f1/Pillow-9.5.0-pp38-pypy38_pp73-manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:aaf305d6d40bd9632198c766fb64f0c1a83ca5b667f16c1e79e1661ab5060140", size = 3281820, upload_time = "2023-04-01T09:31:00.728Z" },
+    { url = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/packages/0d/4f/e31e4814b09f15c13d6fe069458a3b32a240ffaeb603b973456de3ea6d2a/Pillow-9.5.0-pp38-pypy38_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:0852ddb76d85f127c135b6dd1f0bb88dbb9ee990d2cd9aa9e28526c93e794fba", size = 3222897, upload_time = "2023-04-01T09:31:04.332Z" },
+    { url = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/packages/22/3b/db9837995e3d51ff356e39726e2ec0925850fdfef104996c2767baca4407/Pillow-9.5.0-pp38-pypy38_pp73-manylinux_2_28_x86_64.whl", hash = "sha256:91ec6fe47b5eb5a9968c79ad9ed78c342b1f97a091677ba0e012701add857829", size = 3298302, upload_time = "2023-04-01T09:31:07.243Z" },
+    { url = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/packages/d9/0e/7c6f054022235830dc2c37ec83e947d9ca09b0b0361e1e5e29983da92294/Pillow-9.5.0-pp38-pypy38_pp73-win_amd64.whl", hash = "sha256:cb841572862f629b99725ebaec3287fc6d275be9b14443ea746c1dd325053cbd", size = 2537868, upload_time = "2023-04-01T09:31:10.529Z" },
 ]
 
 [[package]]
@@ -605,11 +611,11 @@ wheels = [
 
 [[package]]
 name = "setuptools"
-version = "75.3.2"
+version = "59.5.0"
 source = { registry = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple" }
-sdist = { url = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/packages/5c/01/771ea46cce201dd42cff043a5eea929d1c030fb3d1c2ee2729d02ca7814c/setuptools-75.3.2.tar.gz", hash = "sha256:3c1383e1038b68556a382c1e8ded8887cd20141b0eb5708a6c8d277de49364f5", size = 1354489, upload_time = "2025-03-12T00:02:19.004Z" }
+sdist = { url = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/packages/e6/e2/f2bfdf364e016f7a464db709ea40d1101c4c5a463dd7019dae0a42dbd1c6/setuptools-59.5.0.tar.gz", hash = "sha256:d144f85102f999444d06f9c0e8c737fd0194f10f2f7e5fdb77573f6e2fa4fad0", size = 2281671, upload_time = "2021-12-05T17:28:45.563Z" }
 wheels = [
-    { url = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/packages/15/65/3f0dba35760d902849d39d38c0a72767794b1963227b69a587f8a336d08c/setuptools-75.3.2-py3-none-any.whl", hash = "sha256:90ab613b6583fc02d5369cbca13ea26ea0e182d1df2d943ee9cbe81d4c61add9", size = 1251198, upload_time = "2025-03-12T00:02:17.554Z" },
+    { url = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/packages/40/a9/7deac76c58fa47c95360116a06b53b9b62f6db11336fe61b6ab53784d98b/setuptools-59.5.0-py3-none-any.whl", hash = "sha256:6d10741ff20b89cd8c6a536ee9dc90d3002dec0226c78fb98605bfb9ef8a7adf", size = 952351, upload_time = "2021-12-05T17:28:43.837Z" },
 ]
 
 [[package]]
@@ -667,18 +673,22 @@ wheels = [
 
 [[package]]
 name = "torch"
-version = "1.13.1"
-source = { registry = "https://download.pytorch.org/whl/cu111" }
+version = "2.0.1"
+source = { registry = "https://download.pytorch.org/whl/cu113" }
 resolution-markers = [
     "platform_machine == 'arm64' and sys_platform == 'darwin'",
     "platform_machine == 'aarch64' and sys_platform == 'linux'",
     "(platform_machine != 'arm64' and sys_platform == 'darwin') or (platform_machine != 'aarch64' and sys_platform == 'linux') or (sys_platform != 'darwin' and sys_platform != 'linux')",
 ]
 dependencies = [
+    { name = "filelock" },
+    { name = "jinja2" },
+    { name = "networkx" },
+    { name = "sympy" },
     { name = "typing-extensions" },
 ]
 wheels = [
-    { url = "https://download.pytorch.org/whl/torch-1.13.1-cp38-cp38-manylinux2014_aarch64.whl", hash = "sha256:df8434b0695e9ceb8cc70650afc1310d8ba949e6db2a0525ddd9c3b2b181e5fe" },
+    { url = "https://download.pytorch.org/whl/torch-2.0.1-cp38-cp38-manylinux2014_aarch64.whl", hash = "sha256:0882243755ff28895e8e6dc6bc26ebcf5aa0911ed81b2a12f241fc4b09075b13" },
 ]
 
 [[package]]
@@ -725,8 +735,8 @@ wheels = [
 
 [[package]]
 name = "torchvision"
-version = "0.15.0"
-source = { registry = "https://download.pytorch.org/whl/cu111" }
+version = "0.15.2"
+source = { registry = "https://download.pytorch.org/whl/cu113" }
 resolution-markers = [
     "platform_machine == 'arm64' and sys_platform == 'darwin'",
     "platform_machine == 'aarch64' and sys_platform == 'linux'",
@@ -736,10 +746,10 @@ dependencies = [
     { name = "numpy" },
     { name = "pillow" },
     { name = "requests" },
-    { name = "torch", version = "1.13.1", source = { registry = "https://download.pytorch.org/whl/cu111" } },
+    { name = "torch", version = "2.0.1", source = { registry = "https://download.pytorch.org/whl/cu113" } },
 ]
 wheels = [
-    { url = "https://download.pytorch.org/whl/torchvision-0.15.0-cp38-cp38-manylinux2014_aarch64.whl", hash = "sha256:76035603bd2bfc9811c732bdb87e9b85298222ed9b5261a12d19ecd9ffa8ebc2" },
+    { url = "https://download.pytorch.org/whl/torchvision-0.15.2-cp38-cp38-manylinux2014_aarch64.whl", hash = "sha256:9a192f2aa979438f23c20e883980b23d13268ab9f819498774a6d2eb021802c2" },
 ]
 
 [[package]]
@@ -783,7 +793,7 @@ name = "tqdm"
 version = "4.67.1"
 source = { registry = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple" }
 dependencies = [
-    { name = "colorama", marker = "sys_platform == 'win32' or (extra == 'extra-33-yolov5-lprnet-licence-recognition-cpu' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cu111')" },
+    { name = "colorama", marker = "sys_platform == 'win32' or (extra == 'extra-33-yolov5-lprnet-licence-recognition-cpu' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cu113')" },
 ]
 sdist = { url = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/packages/a8/4b/29b4ef32e036bb34e4ab51796dd745cdba7ed47ad142a9f4a1eb8e0c744d/tqdm-4.67.1.tar.gz", hash = "sha256:f8aef9c52c08c13a65f30ea34f4e5aac3fd1a34959879d7e59e63027286627f2", size = 169737, upload_time = "2024-11-24T20:12:22.481Z" }
 wheels = [
@@ -837,28 +847,29 @@ dependencies = [
     { name = "imutils" },
     { name = "matplotlib" },
     { name = "numpy" },
-    { name = "opencv-python", version = "4.5.4.60", source = { registry = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple" }, marker = "(platform_machine == 'arm64' and sys_platform == 'darwin') or (platform_machine != 'arm64' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cpu' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cu111') or (sys_platform != 'darwin' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cpu' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cu111')" },
-    { name = "opencv-python", version = "4.11.0.86", source = { registry = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple" }, marker = "platform_machine != 'arm64' or sys_platform != 'darwin' or (extra == 'extra-33-yolov5-lprnet-licence-recognition-cpu' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cu111')" },
+    { name = "opencv-python", version = "4.5.4.60", source = { registry = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple" }, marker = "(platform_machine == 'arm64' and sys_platform == 'darwin') or (platform_machine != 'arm64' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cpu' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cu113') or (sys_platform != 'darwin' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cpu' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cu113')" },
+    { name = "opencv-python", version = "4.11.0.86", source = { registry = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple" }, marker = "platform_machine != 'arm64' or sys_platform != 'darwin' or (extra == 'extra-33-yolov5-lprnet-licence-recognition-cpu' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cu113')" },
     { name = "pandas" },
     { name = "pillow" },
     { name = "pyyaml" },
     { name = "requests" },
     { name = "scipy" },
     { name = "seaborn" },
+    { name = "setuptools" },
     { name = "tensorboard" },
     { name = "tqdm" },
 ]
 
 [package.optional-dependencies]
 cpu = [
-    { name = "torch", version = "2.4.1", source = { registry = "https://download.pytorch.org/whl/cpu" }, marker = "(platform_machine == 'arm64' and sys_platform == 'darwin' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cpu') or (platform_machine == 'aarch64' and sys_platform == 'linux' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cpu') or (sys_platform != 'darwin' and sys_platform != 'linux' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cpu' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cu111') or (sys_platform == 'darwin' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cpu' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cu111') or (sys_platform == 'linux' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cpu' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cu111')" },
-    { name = "torch", version = "2.4.1+cpu", source = { registry = "https://download.pytorch.org/whl/cpu" }, marker = "(platform_machine != 'arm64' and sys_platform == 'darwin' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cpu') or (platform_machine != 'aarch64' and sys_platform == 'linux' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cpu') or (sys_platform != 'darwin' and sys_platform != 'linux' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cpu') or (sys_platform == 'darwin' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cpu' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cu111') or (sys_platform == 'linux' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cpu' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cu111')" },
-    { name = "torchvision", version = "0.19.1", source = { registry = "https://download.pytorch.org/whl/cpu" }, marker = "(platform_machine == 'arm64' and sys_platform == 'darwin' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cpu') or (platform_machine == 'aarch64' and sys_platform == 'linux' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cpu') or (sys_platform != 'darwin' and sys_platform != 'linux' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cpu' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cu111') or (sys_platform == 'darwin' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cpu' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cu111') or (sys_platform == 'linux' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cpu' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cu111')" },
-    { name = "torchvision", version = "0.19.1+cpu", source = { registry = "https://download.pytorch.org/whl/cpu" }, marker = "(platform_machine != 'arm64' and sys_platform == 'darwin' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cpu') or (platform_machine != 'aarch64' and sys_platform == 'linux' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cpu') or (sys_platform != 'darwin' and sys_platform != 'linux' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cpu') or (sys_platform == 'darwin' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cpu' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cu111') or (sys_platform == 'linux' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cpu' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cu111')" },
+    { name = "torch", version = "2.4.1", source = { registry = "https://download.pytorch.org/whl/cpu" }, marker = "(platform_machine == 'arm64' and sys_platform == 'darwin' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cpu') or (platform_machine == 'aarch64' and sys_platform == 'linux' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cpu') or (sys_platform != 'darwin' and sys_platform != 'linux' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cpu' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cu113') or (sys_platform == 'darwin' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cpu' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cu113') or (sys_platform == 'linux' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cpu' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cu113')" },
+    { name = "torch", version = "2.4.1+cpu", source = { registry = "https://download.pytorch.org/whl/cpu" }, marker = "(platform_machine != 'arm64' and sys_platform == 'darwin' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cpu') or (platform_machine != 'aarch64' and sys_platform == 'linux' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cpu') or (sys_platform != 'darwin' and sys_platform != 'linux' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cpu') or (sys_platform == 'darwin' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cpu' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cu113') or (sys_platform == 'linux' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cpu' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cu113')" },
+    { name = "torchvision", version = "0.19.1", source = { registry = "https://download.pytorch.org/whl/cpu" }, marker = "(platform_machine == 'arm64' and sys_platform == 'darwin' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cpu') or (platform_machine == 'aarch64' and sys_platform == 'linux' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cpu') or (sys_platform != 'darwin' and sys_platform != 'linux' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cpu' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cu113') or (sys_platform == 'darwin' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cpu' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cu113') or (sys_platform == 'linux' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cpu' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cu113')" },
+    { name = "torchvision", version = "0.19.1+cpu", source = { registry = "https://download.pytorch.org/whl/cpu" }, marker = "(platform_machine != 'arm64' and sys_platform == 'darwin' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cpu') or (platform_machine != 'aarch64' and sys_platform == 'linux' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cpu') or (sys_platform != 'darwin' and sys_platform != 'linux' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cpu') or (sys_platform == 'darwin' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cpu' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cu113') or (sys_platform == 'linux' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cpu' and extra == 'extra-33-yolov5-lprnet-licence-recognition-cu113')" },
 ]
-cu111 = [
-    { name = "torch", version = "1.13.1", source = { registry = "https://download.pytorch.org/whl/cu111" } },
-    { name = "torchvision", version = "0.15.0", source = { registry = "https://download.pytorch.org/whl/cu111" } },
+cu113 = [
+    { name = "torch", version = "2.0.1", source = { registry = "https://download.pytorch.org/whl/cu113" } },
+    { name = "torchvision", version = "0.15.2", source = { registry = "https://download.pytorch.org/whl/cu113" } },
 ]
 
 [package.metadata]
@@ -869,19 +880,20 @@ requires-dist = [
     { name = "numpy", specifier = ">=1.18.5,<1.20" },
     { name = "opencv-python", specifier = ">=4.1.2" },
     { name = "pandas", specifier = ">=1.1.4" },
-    { name = "pillow", specifier = ">=7.1.2" },
+    { name = "pillow", specifier = ">=7.1.2,<10" },
     { name = "pyyaml", specifier = ">=5.3.1" },
     { name = "requests", specifier = ">=2.23.0" },
     { name = "scipy", specifier = ">=1.4.1" },
     { name = "seaborn", specifier = ">=0.11.0" },
+    { name = "setuptools", specifier = "==59.5.0" },
     { name = "tensorboard", specifier = ">=2.4.1" },
     { name = "torch", marker = "extra == 'cpu'", specifier = ">=1.7.0", index = "https://download.pytorch.org/whl/cpu", conflict = { package = "yolov5-lprnet-licence-recognition", extra = "cpu" } },
-    { name = "torch", marker = "extra == 'cu111'", specifier = ">=1.7.0", index = "https://download.pytorch.org/whl/cu111", conflict = { package = "yolov5-lprnet-licence-recognition", extra = "cu111" } },
+    { name = "torch", marker = "extra == 'cu113'", specifier = ">=1.7.0", index = "https://download.pytorch.org/whl/cu113", conflict = { package = "yolov5-lprnet-licence-recognition", extra = "cu113" } },
     { name = "torchvision", marker = "extra == 'cpu'", specifier = ">=0.8.1", index = "https://download.pytorch.org/whl/cpu", conflict = { package = "yolov5-lprnet-licence-recognition", extra = "cpu" } },
-    { name = "torchvision", marker = "extra == 'cu111'", specifier = ">=0.8.1", index = "https://download.pytorch.org/whl/cu111", conflict = { package = "yolov5-lprnet-licence-recognition", extra = "cu111" } },
+    { name = "torchvision", marker = "extra == 'cu113'", specifier = ">=0.8.1", index = "https://download.pytorch.org/whl/cu113", conflict = { package = "yolov5-lprnet-licence-recognition", extra = "cu113" } },
     { name = "tqdm", specifier = ">=4.41.0" },
 ]
-provides-extras = ["cpu", "cu111"]
+provides-extras = ["cpu", "cu113"]
 
 [[package]]
 name = "zipp"
