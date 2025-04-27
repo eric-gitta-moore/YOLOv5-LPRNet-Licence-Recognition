@@ -1,6 +1,47 @@
 # 车牌检测识别模型训练教程
 
-本教程将指导您如何准备数据集并训练车牌检测和识别模型。整个过程分为数据集准备、YOLOv5车牌检测模型训练和LPRNet车牌识别模型训练三个主要部分。
+本教程将指导您如何准备环境、数据集并训练车牌检测和识别模型。整个过程分为环境准备、数据集准备、YOLOv5车牌检测模型训练和LPRNet车牌识别模型训练四个主要部分。
+
+## 零、环境准备
+
+### 0.1 安装UV
+
+UV是一个快速且功能丰富的包管理器，用于Python项目。按照以下步骤安装UV：
+
+```bash
+# 使用curl安装
+curl -LsSf https://astral.sh/uv/install.sh | sh
+
+# 或使用wget安装
+wget -qO- https://astral.sh/uv/install.sh | sh
+```
+
+安装完成后，确认UV已成功安装：
+```bash
+uv --version
+```
+
+### 0.2 使用UV
+
+#### 0.2.1 创建虚拟环境
+```bash
+# 创建新的虚拟环境
+uv venv
+
+# 激活虚拟环境
+source .venv/bin/activate
+```
+
+#### 0.2.2 安装依赖
+```bash
+uv sync
+```
+
+#### 0.2.3 常用命令
+- `uv pip compile requirements.in -o requirements.txt`: 生成锁定版本的依赖文件
+- `uv pip sync requirements.txt`: 同步项目依赖
+- `uv pip freeze`: 查看已安装的包
+- `uv pip uninstall package_name`: 卸载包
 
 ## 一、数据集准备
 
